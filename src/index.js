@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Tempapp from './Tempapp';
+import News from './News'
+import Nasa from './Nasa';
 ReactDOM.render(
-  <React.StrictMode>
+  <>
+  <Tempapp/>
+  <Nasa/>
     <App />
-  </React.StrictMode>,
+  </>,
   document.getElementById('root')
 );
 
