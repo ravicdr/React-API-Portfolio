@@ -9,7 +9,7 @@ const Tempapp=()=>{
   const [mosam,setMossom]=useState("https://images.unsplash.com/photo-1517758478390-c89333af4642?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Ymx1ZSUyMHNreXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
   useEffect(()=>{
     const fetchApi=async()=>{
-    const url=`http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=2f499747853c6d000a227681274e3c2c`
+    const url=`https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=2f499747853c6d000a227681274e3c2c`
       const response =await fetch(url);
       const resJson =await response.json();
       console.log(resJson);
