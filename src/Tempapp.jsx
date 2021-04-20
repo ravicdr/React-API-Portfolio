@@ -35,7 +35,7 @@ const Tempapp=()=>{
     <nav className="navbar navbar-light bg-light">
   <div className="container-fluid">
   <form className="d-flex">
-   { "                                  "}   <input className="inputField" type="search" placeholder="Search" onChange={(event)=>{setSearch(event.target.value)}}/>
+   <input className="inputField" type="search" placeholder="Search" onChange={(event)=>{setSearch(event.target.value)}}/>
      
   </form>
  

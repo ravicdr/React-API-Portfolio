@@ -7,14 +7,18 @@ import Tempapp from './Tempapp';
 import News from './News'
 import Nasa from './Nasa';
 ReactDOM.render(
-  <>
+  <><News/>
   <Tempapp/>
-  <Nasa/>
-    <App />
+<Nasa/>
+<App />
   </>,
   document.getElementById('root')
 );
-
+//<Tempapp/>
+//<Nasa/>
+//<App />
+//
+//
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
